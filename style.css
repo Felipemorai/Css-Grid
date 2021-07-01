@@ -4,8 +4,14 @@
     margin: 0;
     font-family: 'Staatliches', cursive;
 }
+
 .box {
     background: #bdbdbd;
     border: 2px solid #333;
     padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
 } 
