@@ -5,6 +5,10 @@
     font-family: 'Staatliches', cursive;
 }
 
+body {
+    margin: 1rem;
+}
+
 .box {
     background-image: linear-gradient(225deg,#fbc2eb, #a6c1ee);
     border: 2px solid #333;
@@ -13,9 +17,14 @@
 
 .container {
     display: grid;
-    height: 100vh;
+    height: 96vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2fr 3fr 2fr;
     grid-gap: 10px;
-    grid-auto-rows: minmax(316px, auto); 
+     
 } 
+
+.box-1 {
+    grid-row: 1/5;
+}
+
